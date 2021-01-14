@@ -52,6 +52,13 @@ h1{
     height: 300px;
     margin-top: 30px;
 }
+.hover{
+    overflow: hidden;
+}
+.hover:hover{
+    overflow: hidden;
+width: 120%;
+}
 
 
 
@@ -103,4 +110,4 @@ h3{
         right: -29px;
 }
 
-
+}
