@@ -57,7 +57,7 @@ h1{
 
 
 
-@media(min-width:300px) and (max-width:767px){
+@media(min-width:443px) and (max-width:767px){
 /* Small Device*/
 
 .box-modify{
@@ -77,8 +77,30 @@ h1{
 }
 h3{
     margin:10px 100px;
+    margin-left: 125px;
+    display:;
     
 }
+}
+@media(max-width:442px){
+    /*Extra Small Device*/
+
+    
+
+   .navbar-brand img{
+       width: 75%;
+   }
+
+    .navbar>.container-fluid{
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 17px;
+        right: -29px;
 }
 
 
