@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.bgcolor{
+    background-color: #FFF9F4;
+}
+.orange-clr{
+    color: coral;
+    
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.btn-clr{
+    background-color: #8b1d8b;
+    border-radius: 6px;
+    width: 109px;
+    height: 48px;
+    color: white;
+}
+.shoes-bg{
+    background-color: #F1F1F1;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 17px;
+}
+.img-modify{
+ height: 50px;
+ width: 50px;
+ margin-left: 5%;
+}
+.box-modify{
+    height: 110px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.service-box{
+    height: auto;
+    margin-top: 55px;
+    box-shadow: 5px 5px 5px 0px gray;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.icon{
+    font-size: 30px;
+    margin: 5px 25px;
+    color: red;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 30px;
+}
+
+
+
+
+
+@media(min-width:300px) and (max-width:767px){
+/* Small Device*/
+
+.box-modify{
+    height: 340px !important;
+    border-radius: 0%;
+    margin-bottom: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-modify{
+    height: 153px;
+    width: 146px;
+    margin-bottom: 10px;
+}
+h3{
+    margin:10px 100px;
+    
+}
+}
+
+
