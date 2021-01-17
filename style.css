@@ -52,12 +52,22 @@ h1{
     height: 300px;
     margin-top: 30px;
 }
-.hover{
+.colp{
     overflow: hidden;
 }
-.hover:hover{
+.hoverr{
     overflow: hidden;
-width: 120%;
+
+}
+
+ .hover{
+    transition: 1s;
+    width: 90%;
+}
+
+.hoverr:hover .hover{
+    
+    transform: scale(1.5);
 }
 
 
@@ -92,7 +102,15 @@ h3{
 @media(max-width:442px){
     /*Extra Small Device*/
 
-    
+    .box-modify {
+        height: 340px !important;
+        border-radius: 0%;
+        margin-bottom: 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
 
    .navbar-brand img{
        width: 75%;
@@ -109,5 +127,17 @@ h3{
         top: 17px;
         right: -29px;
 }
-
+.xmld{
+    width: 100% !important;
+}
+.img-modify{
+    height: 143px;
+    width: 136px;
+    margin-bottom: 10px;
+    flex-grow: 100%;
+}
+ .flex{
+    display: flex;
+    flex-direction: column !important;
+}
 }
